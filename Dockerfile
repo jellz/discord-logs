@@ -4,7 +4,7 @@ ENV PORT 3000
 
 WORKDIR /usr/src/app
 
-RUN apk add python3
+RUN apk add python3 make gcc g++ git bzip2 dumb-init
 
 COPY yarn.lock ./
 COPY package.json ./
