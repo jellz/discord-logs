@@ -10,7 +10,6 @@
     "cross-env": "^5.2.0",
     "express": "^4.17.1",
     "next": "latest",
-    "node-pre-gyp": "^0.14.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-spinners": "^0.8.3",
