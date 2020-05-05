@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 import { useState, FormEvent, ChangeEvent } from 'react';
 import { useRouter } from 'next/router';
 import Header from '../components/header';

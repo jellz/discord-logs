@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 const MESSAGE_REGEX = /(.+)((?:Today|Yesterday) at \d+:\d+(?: PM|AM)?|\d{2}\/\d{2}\/\d+)/;
 
 interface Message {

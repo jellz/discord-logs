@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 import express from 'express';
 import nextapp from './nextapp';
 import { parseLogs } from './util';

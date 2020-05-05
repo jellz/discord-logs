@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 import { useState } from 'react';
 import useSWR from 'swr';
 import { useRouter } from 'next/router';

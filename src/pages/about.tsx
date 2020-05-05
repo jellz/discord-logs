@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 import Header from '../components/header';
 
 export default function About() {
@@ -22,14 +25,29 @@ export default function About() {
 						other people and they will be able to see the logs.
 					</p>
 				</div>
-
 				<div className='my-3'>
 					<h3 className='text-2xl text-black font-bold'>Contact</h3>
 					<p>
-						You can contact me on Discord (daniel#0004) or <a className='underline' href='mailto:danielgulic@gmail.com'>by email</a>.
+						You can contact me on Discord (daniel#0004) or{' '}
+						<a className='underline' href='mailto:danielgulic@gmail.com'>
+							by email
+						</a>
+						.
 					</p>
 				</div>
-
+				<div className='my-3'>
+					<h3 className='text-2xl text-black font-bold'>Code</h3>
+					<p>
+						The code for this website is free and open-source on GitHub{' '}
+						<a
+							className='text-blue-500 hover:text-blue-800'
+							href='https://github.com/jellz/discord-logs'
+						>
+							here
+						</a>
+						. It is licensed under GPL v3.
+					</p>
+				</div>
 				<div className='my-3'>
 					<h3 className='text-2xl text-black font-bold'>Credits</h3>
 					<p>

@@ -1,3 +1,6 @@
+//    Copyright (C) 2020 Daniel Gulic
+// 		See LICENSE file
+
 import '../styles/index.css';
 import Layout from '../components/layout';
 
