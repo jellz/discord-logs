@@ -10,6 +10,7 @@ COPY yarn.lock ./
 COPY package.json ./
 
 RUN yarn
+RUN yarn global add node-pre-gyp
 
 COPY . .
 
