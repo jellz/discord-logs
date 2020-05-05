@@ -27,19 +27,6 @@ html {
 	src: local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
 }
 
-.btn-blue {
-	@apply bg-blue-500;
-	@apply text-white;
-	@apply font-bold;
-	@apply py-2;
-	@apply px-4;
-	@apply rounded;
-}
-
-.hero {
-	@apply py-20;
-}
-
 .title {
 	@apply text-3xl;
 	@apply text-black;
