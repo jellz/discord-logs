@@ -1,0 +1,57 @@
+@import url('https://rsms.me/inter/inter.css');
+@tailwind base;
+@tailwind components;
+
+html {
+	background-color: #fafafa;
+}
+
+@font-face {
+	font-family: droid sans mono;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Droid Sans Mono'),local('DroidSansMono'),url(https://fonts.gstatic.com/s/droidsansmono/v7/ns-m2xQYezAtqh7ai59hJYW_AySPyikQrZReizgrnuw.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: 'droid serif';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Droid Serif'),local('DroidSerif'),url(https://fonts.gstatic.com/s/droidserif/v6/0AKsP294HTD-nvJgucYTaJ0EAVxt0G0biEntp43Qt6E.ttf) format('truetype')
+}
+
+@font-face {
+	font-family: open sans;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'),local('OpenSans'),url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
+}
+
+.btn-blue {
+	@apply bg-blue-500;
+	@apply text-white;
+	@apply font-bold;
+	@apply py-2;
+	@apply px-4;
+	@apply rounded;
+}
+
+.hero {
+	@apply py-20;
+}
+
+.title {
+	@apply text-3xl;
+	@apply text-black;
+	@apply font-bold;
+	line-height: 1.15;
+}
+
+.main-textarea {
+	height: 18rem;
+	font-family: droid sans mono;
+	min-height: 4rem;
+	@apply text-xl;
+}
+
+@tailwind utilities;
