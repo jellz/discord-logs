@@ -4,6 +4,8 @@ ENV PORT 3000
 
 WORKDIR /usr/src/app
 
+RUN apk add python3
+
 COPY yarn.lock ./
 COPY package.json ./
 
