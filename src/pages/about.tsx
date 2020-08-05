@@ -15,7 +15,9 @@ export default function About() {
 				</a>{' '}
 				in ~1 day.
 				<div className='my-3'>
-					<h3 className='text-2xl text-black font-bold'>How does it work?</h3>
+					<a id='how'>
+						<h3 className='text-2xl text-black font-bold'>How does it work?</h3>
+					</a>
 					<p>
 						You just need to go to your Discord client (supports web and
 						desktop) and copy any amount of messages, make sure to include the
@@ -26,7 +28,9 @@ export default function About() {
 					</p>
 				</div>
 				<div className='my-3'>
-					<h3 className='text-2xl text-black font-bold'>Contact</h3>
+					<a id='contact'>
+						<h3 className='text-2xl text-black font-bold'>Contact</h3>
+					</a>
 					<p>
 						You can contact me on Discord (daniel#0004) or{' '}
 						<a className='underline' href='mailto:danielgulic@gmail.com'>
@@ -36,7 +40,9 @@ export default function About() {
 					</p>
 				</div>
 				<div className='my-3'>
-					<h3 className='text-2xl text-black font-bold'>Code</h3>
+					<a id='code'>
+						<h3 className='text-2xl text-black font-bold'>Code</h3>
+					</a>
 					<p>
 						The code for this website is free and open-source on GitHub{' '}
 						<a
@@ -49,7 +55,9 @@ export default function About() {
 					</p>
 				</div>
 				<div className='my-3'>
-					<h3 className='text-2xl text-black font-bold'>API</h3>
+					<a id='API'>
+						<h3 className='text-2xl text-black font-bold'>API</h3>
+					</a>
 					<p>
 						An API is provided for bots and other automations to POST messages
 						and receive a link to a formatted log.
