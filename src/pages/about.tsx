@@ -59,7 +59,7 @@ export default function About() {
 						<h3 className='text-2xl text-black font-bold'>API</h3>
 					</a>
 					<p>
-						An API is provided for bots and other automations to POST messages
+						An API is provided for bots and other automatons to POST messages
 						and receive a link to a formatted log.
 						<br />
 						<br />
