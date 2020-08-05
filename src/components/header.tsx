@@ -9,8 +9,8 @@ export default function Header() {
 				</a>
 			</Link>
 			<p>
-				This is a free service to format your Discord chat logs to make it look
-				nicer =)
+				This is a free service for you to share your Discord chat logs and make
+				them look nice
 			</p>
 			<ul className='flex mb-3'>
 				<li className='mr-6'>
