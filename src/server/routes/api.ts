@@ -4,7 +4,7 @@
 import express from 'express';
 import { randomBytes } from 'crypto';
 import { parseLogs } from '../util';
-import { sequelize, Log } from '../server';
+import { Log } from '../server';
 
 const router = express.Router();
 
