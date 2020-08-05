@@ -3,11 +3,15 @@
 
 const MESSAGE_REGEX = /(.+)((?:Today|Yesterday) at \d+:\d+(?: PM|AM)?|\d{2}\/\d{2}\/\d+)/;
 
-interface Message {
+export interface Message {
 	author: string;
 	time: string;
-	lines: string[];
+	lines?: string[];
 	content?: string;
+}
+
+export function pad(n: number) {
+	return n < 10 ? '0' + n : n;
 }
 
 export function parseLogs(data: string) {
@@ -39,7 +43,7 @@ export function parseLogs(data: string) {
 
 const randomHSL = () => {
 	return 'hsla(' + ~~(360 * Math.random()) + ',' + '70%,' + '60%,1)';
-}
+};
 
 export function getUniqueNameColour(store: Map<string, string>, name: string) {
 	const existing = store.get(name);
