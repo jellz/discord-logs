@@ -49,6 +49,36 @@ export default function About() {
 					</p>
 				</div>
 				<div className='my-3'>
+					<h3 className='text-2xl text-black font-bold'>API</h3>
+					<p>
+						An API is provided for bots and other automations to POST messages
+						and receive a link to a formatted log.
+						<br />
+						<br />
+						Endpoint
+						<pre>POST /api/format?auto=true</pre>
+						<br />
+						Body (JSON)
+						<pre>{`{
+  "messages": [
+    {
+      "author": "Author Name",
+      "date": 1596632366621,
+      "content": "This is the message content"
+    },
+    {
+      "author": "Another Author Name",
+      "date": 1596632928459,
+      "content": "Another message"
+    }
+  ]
+}
+						`}</pre>
+						<br />
+						You can also GET logs by their ID<pre>GET /api/logs/:id</pre>
+					</p>
+				</div>
+				<div className='my-3'>
 					<h3 className='text-2xl text-black font-bold'>Credits</h3>
 					<p>
 						<ul className='list-disc'>
