@@ -2,7 +2,7 @@
 
 This is a free service for you to share your Discord chat logs and make them look nice
 
-[Visit the site here](https://discordlogs.jlz.fun)
+~~[Visit the site here](https://discordlogs.jlz.fun)~~ No longer being hosted
 
 ## Built with
 
